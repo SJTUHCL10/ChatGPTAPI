@@ -9,64 +9,23 @@ Connect with me on [Linkedin](https://www.linkedin.com/in/acheong08/) to support
 <br><br>
 You can also follow me on [Twitter](https://twitter.com/GodlyIgnorance) to stay up to date.
 
-> ## This repository is updated highly frequently. Expect breaking changes. Always read docs and readme before updating or opening an issue
+> ## [BingGPT](https://github.com/acheong08/BingGPT) is out! It's just like ChatGPT but with live internet access. Reverse engineered from the pre-release by Microsoft.
+> You need to be waitlisted by Microsoft/Bing
 
 
 <details>
 <summary>
 
-# Base model API
+# V1 Browser automation
 
-> ## Update3 2023/02/08: The model is consistently overloaded. I am resuming efforts on making a ChatGPT proxy (browserless) service. Please use the browser version until further notice.
+Browser is required on startup to fetch cookies. Breaks terms of service.
 
-Free, browserless, and without rate limits. Uses an outdated base model for ChatGPT.
+> ## Working version
 
 </summary>
 
 ## Installation
 `pip3 install revChatGPT`
-
-## Setup
-
-1. Create account on [OpenAI](https://platform.openai.com/)
-2. Go to https://platform.openai.com/account/api-keys
-3. Copy API key
-
-## Usage
-
-### Command line
-`python3 -m revChatGPT.Official --api_key API_KEY --stream`
-
-<details>
-<summary>
-
-### Developer
-</summary>
-
-Both Async and Sync are available. You can also stream responses via a generator. Read example code to learn more
-
-#### Example code
-
-You can find it [here](https://github.com/acheong08/ChatGPT/blob/main/src/revChatGPT/Official.py#L292-L408)
-
-#### Further Documentation
-You can find it [wiki](https://github.com/acheong08/ChatGPT/wiki/revChatGPT)
-
-</details>
-</details>
-
-
-<details>
-<summary>
-
-# ChatGPT website version
-
-Browser is required. Breaks terms of service.
-
-</summary>
-
-## Installation
-`pip3 install revChatGPT[unofficial]`
 
 ## Configuration
 
@@ -165,6 +124,51 @@ Optional:
 </details>
 
 </details>
+
+
+<details>
+<summary>
+
+# V2: Base model
+
+> ## Update3 2023/02/08: The model is consistently overloaded. I am resuming efforts on making a ChatGPT proxy (browserless) service. Please use V1 until further notice
+
+Free, browserless, and without rate limits. Uses an outdated base model for ChatGPT.
+
+</summary>
+
+## Installation
+`pip3 install revChatGPT`
+
+## Setup
+
+1. Create account on [OpenAI](https://platform.openai.com/)
+2. Go to https://platform.openai.com/account/api-keys
+3. Copy API key
+
+## Usage
+
+### Command line
+`python3 -m revChatGPT.Official --api_key API_KEY --stream`
+
+<details>
+<summary>
+
+### Developer
+</summary>
+
+Both Async and Sync are available. You can also stream responses via a generator. Read example code to learn more
+
+#### Example code
+
+You can find it [here](https://github.com/acheong08/ChatGPT/blob/main/src/revChatGPT/Official.py#L292-L408)
+
+#### Further Documentation
+You can find it [wiki](https://github.com/acheong08/ChatGPT/wiki/revChatGPT)
+
+</details>
+</details>
+
 
 # Awesome ChatGPT
 
